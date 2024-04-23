@@ -1,3 +1,5 @@
+import {FaLinkedin} from "react-icons/fa"
+
 function About() {
     return (
       <div className='card shadow-md compact side bg-base-100'> 
@@ -15,6 +17,8 @@ function About() {
           <a className='text-white' href='https://github.com/Satish740'>
             Satish Jagadish
           </a>
+          <a  href="https://www.linkedin.com/in/satish-jagadish-b2916a167/" target="_blank" rel="noreferrer"> <FaLinkedin /> </a>
+
         </p>
       </div>
       </div>
